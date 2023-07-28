@@ -13,3 +13,17 @@ Es un sistema de base de datos noSQL, orientado a documentos ( ya no son tablas,
 ## Diferencias noSQL y SQL
 
 <img src="./img/MongoDB-vs-SQL.png">
+
+## Glosario y Definiciones
+
+1. Par Clave-Valor: Los Documentos contendrán pares clave-valor.
+
+```json
+ {"Nombre":"Jose","Apellido":"Cabrejo"}
+```
+2. Documentos: Son la equivalencia a las filas, es decir los objetos que vamos a guardaren las colleciones.
+3. Colecciones: Es un grupo de Documentos y es el equivalesnte a las tablas en las bases de datos sql.
+4. Base de datos NoSQL: Las bases de datos no relacionales que agrupan las colecciones.
+
+
+
