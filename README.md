@@ -10,3 +10,6 @@ Es un sistema de base de datos noSQL, orientado a documentos ( ya no son tablas,
 4. Rendimiento: modelos de datos integrados, indexación, fragmentación, documentos flexibles, duplicación nativa, entre otros.
 5. Gratis y código abierto.
 
+## Diferencias noSQL y SQL
+
+<img src="./img/MongoDB-vs-SQL.png">
