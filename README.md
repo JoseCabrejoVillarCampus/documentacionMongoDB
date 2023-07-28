@@ -25,5 +25,24 @@ Es un sistema de base de datos noSQL, orientado a documentos ( ya no son tablas,
 3. Colecciones: Es un grupo de Documentos y es el equivalesnte a las tablas en las bases de datos sql.
 4. Base de datos NoSQL: Las bases de datos no relacionales que agrupan las colecciones.
 
+## Operaciones CRUD
+
+Las operaciones en esta base NosQL consta de crear, leer, actualizar y eliminar documentos.
+
+### Crear operaciones
+
+Son las operaciones de creacion e insercion, donde se anexan documentos a una coleccion, ademas si la coleccion no existe, estas operaciones tambien crean la coleccion.
+
+### Leer Operaciones
+
+Estas recuperan documentos de una coleccion, es decir realiza consultas.
+
+### Actualizar Operaciones
+
+Modifican los documentos existentes de una coleccion, ademas se puede actualizar uno o varios documentos en una sola operacion.
+
+### Eliminar Operaciones
+
+Elimina los documentos existentes de una coleccion, ademas se puede eliminar uno o varios documentos en una sola operacion.
 
 
