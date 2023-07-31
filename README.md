@@ -58,4 +58,27 @@ Sharding: Cuando los datos crecen más allá de la capacidad de un solo servidor
 
 Replicación: MongoDB puede crear réplicas de los datos en múltiples servidores para garantizar alta disponibilidad y redundancia de los datos. Estas réplicas pueden asumir automáticamente el control si el nodo primario falla.
 
+## Instalación de MongoDB en tu computadora:
 
+1. Ve al sitio web oficial de MongoDB: https://www.mongodb.com/try/download/community
+Selecciona el sistema operativo que estás utilizando (por ejemplo, Windows, macOS, o Linux) y descarga la versión de MongoDB Community Server.
+Sigue las instrucciones de instalación para tu sistema operativo específico. En la mayoría de los casos, deberás ejecutar un instalador y seguir los pasos proporcionados por el asistente de instalación.
+
+2. Creación de una cuenta en MongoDB Atlas:
+
+Ve al sitio web de MongoDB Atlas: https://www.mongodb.com/cloud/atlas
+Haz clic en el botón "Sign Up" (Registrarse) en la esquina superior derecha de la página.
+Ingresa tu dirección de correo electrónico y crea una contraseña segura para tu cuenta.
+Selecciona la opción "I agree to the MongoDB Terms and Privacy Policy" (Acepto los Términos y la Política de privacidad de MongoDB).
+Haz clic en el botón "Get Started Free" (Comenzar gratis) para iniciar el proceso de registro.
+
+3. Configuración de un nuevo clúster en MongoDB Atlas:
+
+Selecciona la opción "Starter Clusters" (Clústeres de inicio) y elige el proveedor de nube (por ejemplo, AWS, Google Cloud, o Azure) y la región donde deseas alojar tu clúster.
+Selecciona el tipo de clúster que deseas crear. Para empezar, puedes elegir "Shared" (Compartido) para probar la plataforma sin costos iniciales.
+A continuación, elige una opción de nivel de almacenamiento y la versión de MongoDB que deseas utilizar.
+Ingresa un nombre para tu clúster. Puedes dejar las opciones predeterminadas para el resto de las configuraciones o personalizarlas según tus necesidades.
+Haz clic en el botón "Create Cluster" (Crear clúster) para iniciar el proceso de creación.
+Espera unos minutos mientras MongoDB Atlas crea el clúster para ti. Una vez que el clúster esté listo, podrás acceder a él desde el panel de control de MongoDB Atlas y comenzar a trabajar con MongoDB en la nube.
+
+✨ Recuerda que MongoDB Atlas ofrece una capa gratuita con ciertas limitaciones, pero también ofrece opciones de escalado y funcionalidades avanzadas para proyectos más grandes y exigentes. ¡Disfruta usando MongoDB Atlas!✨
