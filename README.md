@@ -1,6 +1,6 @@
-# MongoDB
+# MongoDB 
 
-Es un sistema de base de datos noSQL, orientado a documentos ( ya no son tablas, sino colecciones ) y de Código abierto, a diferencia de los sistemas de sql, este guarda estructuras de datos JSON con un esquema dinámico, lo cual genera un app mas rápida y fácil de usar.
+Es un sistema de base de datos noSQL, orientado a documentos ( ya no son tablas, sino colecciones ) y de Código abierto, a diferencia de los sistemas de sql, este guarda estructuras de datos JSON con un esquema dinámico, lo cual genera un app mas rápida y fácil de usar. 🖖
 
 ## CARACTERÍSTICAS 
 
@@ -44,5 +44,18 @@ Modifican los documentos existentes de una coleccion, ademas se puede actualizar
 ### Eliminar Operaciones
 
 Elimina los documentos existentes de una coleccion, ademas se puede eliminar uno o varios documentos en una sola operacion.
+
+## Funcionamiento
+
+Almacenamiento de documentos: MongoDB almacena datos en bases de datos, que contienen colecciones. Cada colección es un conjunto de documentos que pueden tener diferentes campos y estructuras.
+Operaciones 
+
+CRUD: Las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) se utilizan para interactuar con la base de datos. Los datos pueden ser insertados, recuperados, actualizados y eliminados utilizando el lenguaje de consulta de MongoDB.
+
+Indexación: Los índices mejoran el rendimiento de las consultas creando estructuras de datos que permiten a MongoDB localizar y acceder a los datos de manera más eficiente.
+
+Sharding: Cuando los datos crecen más allá de la capacidad de un solo servidor, MongoDB puede distribuir los datos en varias máquinas utilizando el sharding. El sharding se basa en una clave de fragmentación y asegura que los datos relacionados se almacenen juntos.
+
+Replicación: MongoDB puede crear réplicas de los datos en múltiples servidores para garantizar alta disponibilidad y redundancia de los datos. Estas réplicas pueden asumir automáticamente el control si el nodo primario falla.
 
 
